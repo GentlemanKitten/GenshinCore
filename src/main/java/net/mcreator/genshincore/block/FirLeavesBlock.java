@@ -1,23 +1,18 @@
 
 package net.mcreator.genshincore.block;
 
-import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.LeavesBlock;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import java.util.List;
-import java.util.Collections;
-
 public class FirLeavesBlock extends LeavesBlock {
 	public FirLeavesBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.VINE).strength(0.1f, 10f).requiresCorrectToolForDrops().noOcclusion());
+		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.VINE).strength(0.1f, 10f).requiresCorrectToolForDrops().noOcclusion().noLootTable());
 	}
 
 	@Override
@@ -30,13 +25,5 @@ public class FirLeavesBlock extends LeavesBlock {
 		if (player.getInventory().getSelected().getItem() instanceof HoeItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
-	}
-
-	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }
