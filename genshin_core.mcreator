@@ -1,0 +1,850 @@
+{
+  "mod_elements": [
+    {
+      "name": "Primogem",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primogem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/item/PrimogemItem.java",
+          "src/main/resources/assets/genshin_core/models/item/primogem.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Currency",
+      "type": "tab",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "currency",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "WindwheelAster",
+      "type": "plant",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "windwheel_aster",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/WindwheelAsterBlock.java",
+          "src/main/resources/data/genshin_core/worldgen/placed_feature/windwheel_aster.json",
+          "src/main/resources/assets/genshin_core/blockstates/windwheel_aster.json",
+          "src/main/resources/assets/genshin_core/models/item/windwheel_aster.json",
+          "src/main/java/net/mcreator/genshincore/world/features/plants/WindwheelAsterFeature.java",
+          "src/main/resources/data/genshin_core/forge/biome_modifier/windwheel_aster_biome_modifier.json",
+          "src/main/resources/data/genshin_core/worldgen/configured_feature/windwheel_aster.json",
+          "src/main/resources/assets/genshin_core/models/block/windwheel_aster.json"
+        ]
+      },
+      "path": "~/Nature"
+    },
+    {
+      "name": "Nature",
+      "type": "tab",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nature",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "SmallLampGrass",
+      "type": "plant",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_lamp_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/world/features/plants/SmallLampGrassFeature.java",
+          "src/main/java/net/mcreator/genshincore/block/SmallLampGrassBlock.java",
+          "src/main/resources/assets/genshin_core/models/item/small_lamp_grass.json",
+          "src/main/resources/data/genshin_core/worldgen/configured_feature/small_lamp_grass.json",
+          "src/main/resources/assets/genshin_core/models/block/small_lamp_grass.json",
+          "src/main/resources/data/genshin_core/worldgen/placed_feature/small_lamp_grass.json",
+          "src/main/resources/data/genshin_core/forge/biome_modifier/small_lamp_grass_biome_modifier.json",
+          "src/main/resources/assets/genshin_core/blockstates/small_lamp_grass.json"
+        ]
+      },
+      "path": "~/Nature"
+    },
+    {
+      "name": "Blocks",
+      "type": "tab",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "MondstadtMountainGrass",
+      "type": "plant",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_mountain_grass.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_grass.json",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_mountain_grass.json",
+          "src/main/java/net/mcreator/genshincore/block/MondstadtMountainGrassBlock.java",
+          "src/main/resources/data/genshin_core/forge/biome_modifier/mondstadt_mountain_grass_biome_modifier.json",
+          "src/main/java/net/mcreator/genshincore/world/features/plants/MondstadtMountainGrassFeature.java",
+          "src/main/resources/data/genshin_core/worldgen/configured_feature/mondstadt_mountain_grass.json",
+          "src/main/resources/data/genshin_core/worldgen/placed_feature/mondstadt_mountain_grass.json"
+        ]
+      },
+      "path": "~/Nature"
+    },
+    {
+      "name": "MondstadtMountainGrassBlock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/MondstadtMountainGrassBlockBlock.java",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_grass_block.json",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_mountain_grass_block.json",
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_mountain_grass_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtMountainDirtBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_dirt_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/MondstadtMountainDirtBlockBlock.java",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_mountain_dirt_block.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_dirt_block.json",
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_mountain_dirt_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtMountains",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/worldgen/configured_feature/mondstadt_mountains_tree.json",
+          "src/main/resources/data/genshin_core/worldgen/placed_feature/mondstadt_mountains_tree.json",
+          "src/main/resources/data/genshin_core/worldgen/biome/mondstadt_mountains.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "MondstadtMountainFullGrassBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_full_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_mountain_full_grass_block.json",
+          "src/main/java/net/mcreator/genshincore/block/MondstadtMountainFullGrassBlockBlock.java",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_full_grass_block.json",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_mountain_full_grass_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtMountainGrassSlab",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_grass_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/MondstadtMountainGrassSlabBlock.java",
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_mountain_grass_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_grass_slab_full.json",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_mountain_grass_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_grass_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_grass_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtMountainGrassStairs",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_grass_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_mountain_grass_stairs.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_grass_stairs_outer.json",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_mountain_grass_stairs.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_grass_stairs.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_grass_stairs_inner.json",
+          "src/main/java/net/mcreator/genshincore/block/MondstadtMountainGrassStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtMountainDirtSlab",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_dirt_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_dirt_slab_top.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_dirt_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_dirt_slab_full.json",
+          "src/main/java/net/mcreator/genshincore/block/MondstadtMountainDirtSlabBlock.java",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_mountain_dirt_slab.json",
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_mountain_dirt_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtMountainDirtStairs",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_dirt_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/MondstadtMountainDirtStairsBlock.java",
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_mountain_dirt_stairs.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_dirt_stairs_inner.json",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_mountain_dirt_stairs.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_dirt_stairs_outer.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_dirt_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtMountainFullGrassSlab",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_full_grass_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_mountain_full_grass_slab.json",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_mountain_full_grass_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_full_grass_slab_top.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_full_grass_slab_full.json",
+          "src/main/java/net/mcreator/genshincore/block/MondstadtMountainFullGrassSlabBlock.java",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_full_grass_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtMountainFullGrassStairs",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_full_grass_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_full_grass_stairs_outer.json",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_mountain_full_grass_stairs.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_full_grass_stairs.json",
+          "src/main/java/net/mcreator/genshincore/block/MondstadtMountainFullGrassStairsBlock.java",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_mountain_full_grass_stairs_inner.json",
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_mountain_full_grass_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtMountainFullGrassBlockRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_full_grass_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/mondstadt_mountain_full_grass_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MondstadtMountainDirtSlabRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_dirt_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/mondstadt_mountain_dirt_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MondstadtMountainDirtStairsRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_dirt_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/mondstadt_mountain_dirt_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MondstadtMountainGrassSlabRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_grass_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/mondstadt_mountain_grass_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MondstadtMountainGrassStairsRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_grass_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/mondstadt_mountain_grass_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MondstadtMountainFullGrassSlabRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_full_grass_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/mondstadt_mountain_full_grass_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MondstadtMountainFullGrassStairsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountain_full_grass_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/mondstadt_mountain_full_grass_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GenshinCore",
+      "type": "dimension",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genshin_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/dimension/genshin_core.json",
+          "src/main/java/net/mcreator/genshincore/world/dimension/GenshinCoreDimension.java",
+          "src/main/resources/data/genshin_core/dimension_type/genshin_core.json"
+        ]
+      },
+      "path": "~/Dimension"
+    },
+    {
+      "name": "GenshinCoreProcedure",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genshin_core_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/procedures/GenshinCoreProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Dimension"
+    },
+    {
+      "name": "FirLeaves",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/FirLeavesBlock.java",
+          "src/main/resources/assets/genshin_core/models/item/fir_leaves.json",
+          "src/main/resources/assets/genshin_core/blockstates/fir_leaves.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirLog",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/FirLogBlock.java",
+          "src/main/resources/assets/genshin_core/models/item/fir_log.json",
+          "src/main/resources/assets/genshin_core/blockstates/fir_log.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirLogSlab",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_log_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/block/fir_log_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_log_slab_full.json",
+          "src/main/resources/assets/genshin_core/blockstates/fir_log_slab.json",
+          "src/main/java/net/mcreator/genshincore/block/FirLogSlabBlock.java",
+          "src/main/resources/assets/genshin_core/models/item/fir_log_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_log_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirWood",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/item/fir_wood.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_wood.json",
+          "src/main/java/net/mcreator/genshincore/block/FirWoodBlock.java",
+          "src/main/resources/assets/genshin_core/blockstates/fir_wood.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirWoodStairs",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_wood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/block/fir_wood_stairs_outer.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_wood_stairs.json",
+          "src/main/resources/assets/genshin_core/models/item/fir_wood_stairs.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_wood_stairs_inner.json",
+          "src/main/java/net/mcreator/genshincore/block/FirWoodStairsBlock.java",
+          "src/main/resources/assets/genshin_core/blockstates/fir_wood_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirWoodSlab",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_wood_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/FirWoodSlabBlock.java",
+          "src/main/resources/assets/genshin_core/models/block/fir_wood_slab_full.json",
+          "src/main/resources/assets/genshin_core/blockstates/fir_wood_slab.json",
+          "src/main/resources/assets/genshin_core/models/item/fir_wood_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_wood_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_wood_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirLogSlabRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_log_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_log_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirWoodRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_wood_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirWoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_wood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_wood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_wood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_wood_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Logs",
+      "type": "tag",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "FirLeafSlab",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_leaf_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/FirLeafSlabBlock.java",
+          "src/main/resources/assets/genshin_core/blockstates/fir_leaf_slab.json",
+          "src/main/resources/assets/genshin_core/models/item/fir_leaf_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_leaf_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_leaf_slab_top.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_leaf_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirLeafStairs",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_leaf_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/block/fir_leaf_stairs_outer.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_leaf_stairs.json",
+          "src/main/resources/assets/genshin_core/blockstates/fir_leaf_stairs.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_leaf_stairs_inner.json",
+          "src/main/java/net/mcreator/genshincore/block/FirLeafStairsBlock.java",
+          "src/main/resources/assets/genshin_core/models/item/fir_leaf_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirLeafSlabRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_leaf_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_leaf_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirLeafStairsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_leaf_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_leaf_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WelcomeToTeyvat",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_to_teyvat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/advancements/welcome_to_teyvat.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SpookyScaryPumpkins",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spooky_scary_pumpkins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/advancements/spooky_scary_pumpkins.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "PumpkinPatch",
+      "type": "structure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_patch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/world/features/PumpkinPatchFeature.java",
+          "src/main/resources/data/genshin_core/forge/biome_modifier/pumpkin_patch_biome_modifier.json",
+          "src/main/resources/data/genshin_core/worldgen/configured_feature/pumpkin_patch.json",
+          "src/main/resources/data/genshin_core/worldgen/placed_feature/pumpkin_patch.json"
+        ]
+      },
+      "path": "~/Structure"
+    },
+    {
+      "name": "PumpkinPatchSpooky",
+      "type": "structure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_patch_spooky",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/forge/biome_modifier/pumpkin_patch_spooky_biome_modifier.json",
+          "src/main/resources/data/genshin_core/worldgen/placed_feature/pumpkin_patch_spooky.json",
+          "src/main/java/net/mcreator/genshincore/world/features/PumpkinPatchSpookyFeature.java",
+          "src/main/resources/data/genshin_core/worldgen/configured_feature/pumpkin_patch_spooky.json"
+        ]
+      },
+      "path": "~/Structure"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.genshin_core.mondstadt_mountain_grass_block": "Mondstadt Mountain Grass Block",
+      "block.genshin_core.mondstadt_mountain_full_grass_stairs": "Mondstadt Mountain Full Grass Stairs",
+      "block.genshin_core.mondstadt_mountain_grass_slab": "Mondstadt Mountain Grass Slab",
+      "block.genshin_core.fir_leaf_stairs": "Fir Leaf Stairs",
+      "block.genshin_core.fir_log_slab": "Fir Log Slab",
+      "block.genshin_core.mondstadt_mountain_dirt_stairs": "Mondstadt Mountain Dirt Stairs",
+      "item_group.genshin_core.nature": "Nature",
+      "item_group.genshin_core.blocks": "Blocks",
+      "block.genshin_core.mondstadt_mountain_dirt_slab": "Mondstadt Mountain Dirt Slab",
+      "block.genshin_core.mondstadt_mountain_full_grass_slab": "Mondstadt Mountain Full Grass Slab",
+      "advancements.welcome_to_teyvat.title": "Welcome To Teyvat!",
+      "item.genshin_core.primogem": "Primogem",
+      "item_group.genshin_core.currency": "Currency",
+      "block.genshin_core.windwheel_aster": "Windwheel Aster",
+      "advancements.welcome_to_teyvat.descr": "Enter Teyvat.",
+      "block.genshin_core.mondstadt_mountain_full_grass_block": "Mondstadt Mountain Full Grass Block",
+      "block.genshin_core.fir_leaf_slab": "Fir Leaf Slab",
+      "advancements.spooky_scary_pumpkins.title": "Spooky Scary Pumpkins!",
+      "block.genshin_core.small_lamp_grass": "Small Lamp Grass",
+      "block.genshin_core.mondstadt_mountain_dirt_block": "Mondstadt Mountain Dirt Block",
+      "block.genshin_core.fir_log": "Fir Log",
+      "block.genshin_core.fir_wood_stairs": "Fir Wood Stairs",
+      "biome.genshin_core.mondstadt_mountains": "Mondstadt Mountains",
+      "advancements.spooky_scary_pumpkins.descr": "Find Spooky Pumpkin Patch",
+      "block.genshin_core.mondstadt_mountain_grass_stairs": "Mondstadt Mountain Grass Stairs",
+      "block.genshin_core.fir_wood": "Fir Wood",
+      "block.genshin_core.mondstadt_mountain_grass": "Mondstadt Mountain Grass",
+      "block.genshin_core.fir_leaves": "Fir Leaves",
+      "block.genshin_core.fir_wood_slab": "Fir Wood Slab"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Tabs",
+        "children": []
+      },
+      {
+        "name": "Nature",
+        "children": []
+      },
+      {
+        "name": "Creatures",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Dimension",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Structure",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "genshin_core",
+    "modName": "Genshin Core",
+    "version": "1.0.0",
+    "author": "GentlemanKitten, LeonArt1",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.genshincore",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

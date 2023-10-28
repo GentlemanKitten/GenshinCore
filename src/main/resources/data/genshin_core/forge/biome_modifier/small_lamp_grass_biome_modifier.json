@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "genshin_core:mondstadt_mountains",
+  "features": "genshin_core:small_lamp_grass",
+  "step": "vegetal_decoration"
+}

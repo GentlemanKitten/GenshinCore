@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "genshin_core:pumpkin_patch",
+  "step": "surface_structures"
+}

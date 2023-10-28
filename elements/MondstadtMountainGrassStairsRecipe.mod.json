@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MondstadtMountainGrassBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MondstadtMountainGrassBlock"
+      },
+      {
+        "value": "CUSTOM:MondstadtMountainGrassBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MondstadtMountainGrassBlock"
+      },
+      {
+        "value": "CUSTOM:MondstadtMountainGrassBlock"
+      },
+      {
+        "value": "CUSTOM:MondstadtMountainGrassBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MondstadtMountainGrassStairs"
+    },
+    "name": "mondstadt_mountain_grass_stairs_recipe",
+    "namespace": "mod"
+  }
+}

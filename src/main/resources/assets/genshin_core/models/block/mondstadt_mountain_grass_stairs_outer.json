@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "genshin_core:block/guilded_image_f68f727afc19360104b7fcf227a50581",
+    "top": "genshin_core:block/guilded_image_763260093851589f8403cb724d26a51c",
+    "side": "genshin_core:block/guilded_image_4e33b989886ada30f282bc8982f8e666"
+  },
+  "render_type": "solid"
+}

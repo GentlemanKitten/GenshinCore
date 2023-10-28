@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "genshin_core:block/flow2",
+    "particle": "genshin_core:block/flow2"
+  },
+  "render_type": "cutout"
+}

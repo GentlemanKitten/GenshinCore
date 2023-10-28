@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "genshin_core:block/guilded_image_49efac0dd16e9822314d78cc117fc6ba",
+    "particle": "genshin_core:block/guilded_image_49efac0dd16e9822314d78cc117fc6ba"
+  },
+  "render_type": "solid"
+}

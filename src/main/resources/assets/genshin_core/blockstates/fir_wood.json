@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "genshin_core:block/fir_wood"
+    },
+    "facing=east": {
+      "model": "genshin_core:block/fir_wood",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "genshin_core:block/fir_wood",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "genshin_core:block/fir_wood",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genshin_core:block/mondstadt_mountain_full_grass_slab"
+    },
+    "type=top": {
+      "model": "genshin_core:block/mondstadt_mountain_full_grass_slab_top"
+    },
+    "type=double": {
+      "model": "genshin_core:block/mondstadt_mountain_full_grass_slab_full"
+    }
+  }
+}

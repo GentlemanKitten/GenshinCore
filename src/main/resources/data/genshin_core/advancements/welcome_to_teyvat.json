@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "genshin_core:primogem"
+    },
+    "title": {
+      "translate": "advancements.welcome_to_teyvat.title"
+    },
+    "description": {
+      "translate": "advancements.welcome_to_teyvat.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome_to_teyvat": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "genshin_core:genshin_core"
+      }
+    }
+  }
+}

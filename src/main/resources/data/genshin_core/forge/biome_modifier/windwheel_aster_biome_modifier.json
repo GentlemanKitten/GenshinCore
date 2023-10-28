@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "genshin_core:mondstadt_mountains",
+  "features": "genshin_core:windwheel_aster",
+  "step": "vegetal_decoration"
+}

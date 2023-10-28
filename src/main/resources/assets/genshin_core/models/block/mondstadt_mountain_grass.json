@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "genshin_core:block/grass",
+    "particle": "genshin_core:block/grass"
+  },
+  "render_type": "cutout"
+}

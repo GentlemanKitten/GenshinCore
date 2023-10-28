@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_core:mondstadt_mountain_full_grass_block"
+    },
+    "1": {
+      "item": "genshin_core:mondstadt_mountain_full_grass_block"
+    },
+    "2": {
+      "item": "genshin_core:mondstadt_mountain_full_grass_block"
+    }
+  },
+  "result": {
+    "item": "genshin_core:mondstadt_mountain_full_grass_slab",
+    "count": 6
+  }
+}

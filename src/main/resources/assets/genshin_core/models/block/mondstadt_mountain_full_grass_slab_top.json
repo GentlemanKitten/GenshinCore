@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "genshin_core:block/guilded_image_763260093851589f8403cb724d26a51c",
+    "top": "genshin_core:block/guilded_image_763260093851589f8403cb724d26a51c",
+    "side": "genshin_core:block/guilded_image_763260093851589f8403cb724d26a51c"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "genshin_core:mondstadt_mountain_grass_block",
+    "genshin_core:mondstadt_mountain_dirt_block"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Currency",
+    "icon": {
+      "value": "CUSTOM:Primogem"
+    },
+    "showSearch": false
+  }
+}

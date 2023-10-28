@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_core:fir_log"
+    },
+    "1": {
+      "item": "genshin_core:fir_log"
+    },
+    "2": {
+      "item": "genshin_core:fir_log"
+    },
+    "3": {
+      "item": "genshin_core:fir_log"
+    }
+  },
+  "result": {
+    "item": "genshin_core:fir_wood",
+    "count": 2
+  }
+}

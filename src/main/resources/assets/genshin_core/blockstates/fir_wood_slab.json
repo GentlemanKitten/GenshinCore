@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genshin_core:block/fir_wood_slab"
+    },
+    "type=top": {
+      "model": "genshin_core:block/fir_wood_slab_top"
+    },
+    "type=double": {
+      "model": "genshin_core:block/fir_wood_slab_full"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "genshin_core:fir_leaves"
+    },
+    "4": {
+      "item": "genshin_core:fir_leaves"
+    },
+    "5": {
+      "item": "genshin_core:fir_leaves"
+    },
+    "6": {
+      "item": "genshin_core:fir_leaves"
+    },
+    "7": {
+      "item": "genshin_core:fir_leaves"
+    },
+    "8": {
+      "item": "genshin_core:fir_leaves"
+    }
+  },
+  "result": {
+    "item": "genshin_core:fir_leaf_stairs",
+    "count": 4
+  }
+}

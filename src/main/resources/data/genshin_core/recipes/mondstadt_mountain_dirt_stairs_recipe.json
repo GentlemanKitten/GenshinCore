@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_core:mondstadt_mountain_dirt_block"
+    },
+    "3": {
+      "item": "genshin_core:mondstadt_mountain_dirt_block"
+    },
+    "4": {
+      "item": "genshin_core:mondstadt_mountain_dirt_block"
+    },
+    "6": {
+      "item": "genshin_core:mondstadt_mountain_dirt_block"
+    },
+    "7": {
+      "item": "genshin_core:mondstadt_mountain_dirt_block"
+    },
+    "8": {
+      "item": "genshin_core:mondstadt_mountain_dirt_block"
+    }
+  },
+  "result": {
+    "item": "genshin_core:mondstadt_mountain_dirt_stairs",
+    "count": 4
+  }
+}

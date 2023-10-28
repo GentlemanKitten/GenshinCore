@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "genshin_core:item/0aa507bc238d139dedb94f63b32512eb-small"
+  }
+}

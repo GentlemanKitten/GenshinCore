@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_core:mondstadt_mountain_dirt_block"
+    },
+    "1": {
+      "item": "genshin_core:mondstadt_mountain_dirt_block"
+    },
+    "2": {
+      "item": "genshin_core:mondstadt_mountain_dirt_block"
+    }
+  },
+  "result": {
+    "item": "genshin_core:mondstadt_mountain_dirt_slab",
+    "count": 6
+  }
+}

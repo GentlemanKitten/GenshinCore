@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_core:fir_leaves"
+    },
+    "1": {
+      "item": "genshin_core:fir_leaves"
+    },
+    "2": {
+      "item": "genshin_core:fir_leaves"
+    }
+  },
+  "result": {
+    "item": "genshin_core:fir_leaf_slab",
+    "count": 6
+  }
+}
