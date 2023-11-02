@@ -47,5 +47,17 @@ public class GenshinCoreModTabs {
 				tabData.accept(GenshinCoreModBlocks.FIR_WOOD.get().asItem());
 				tabData.accept(GenshinCoreModBlocks.FIR_WOOD_STAIRS.get().asItem());
 				tabData.accept(GenshinCoreModBlocks.FIR_WOOD_SLAB.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.FIR_PLANKS.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.FIR_STAIRS.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.FIR_SLAB.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.FIR_FENCE.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.FIR_FENCE_GATE.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.FIR_PRESSURE_PLATE.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.FIR_BUTTON.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.MONDSTADT_STONE.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.MONDSTADT_STONE_STAIRS.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.MONDSTADT_STONE_SLAB.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.MONDSTADT_STONE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(GenshinCoreModBlocks.MONDSTADT_STONE_BUTTON.get().asItem());
 			}).withSearchBar().build());
 }

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_core:fir_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "genshin_core:fir_planks"
+    },
+    "3": {
+      "item": "genshin_core:fir_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "genshin_core:fir_planks"
+    }
+  },
+  "result": {
+    "item": "genshin_core:fir_fence",
+    "count": 3
+  }
+}

@@ -12,6 +12,11 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.genshincore.block.WindwheelAsterBlock;
 import net.mcreator.genshincore.block.SmallLampGrassBlock;
+import net.mcreator.genshincore.block.MondstadtStoneStairsBlock;
+import net.mcreator.genshincore.block.MondstadtStoneSlabBlock;
+import net.mcreator.genshincore.block.MondstadtStonePressurePlateBlock;
+import net.mcreator.genshincore.block.MondstadtStoneButtonBlock;
+import net.mcreator.genshincore.block.MondstadtStoneBlock;
 import net.mcreator.genshincore.block.MondstadtMountainGrassStairsBlock;
 import net.mcreator.genshincore.block.MondstadtMountainGrassSlabBlock;
 import net.mcreator.genshincore.block.MondstadtMountainGrassBlockBlock;
@@ -25,11 +30,18 @@ import net.mcreator.genshincore.block.MondstadtMountainDirtBlockBlock;
 import net.mcreator.genshincore.block.FirWoodStairsBlock;
 import net.mcreator.genshincore.block.FirWoodSlabBlock;
 import net.mcreator.genshincore.block.FirWoodBlock;
+import net.mcreator.genshincore.block.FirStairsBlock;
+import net.mcreator.genshincore.block.FirSlabBlock;
+import net.mcreator.genshincore.block.FirPressurePlateBlock;
+import net.mcreator.genshincore.block.FirPlanksBlock;
 import net.mcreator.genshincore.block.FirLogSlabBlock;
 import net.mcreator.genshincore.block.FirLogBlock;
 import net.mcreator.genshincore.block.FirLeavesBlock;
 import net.mcreator.genshincore.block.FirLeafStairsBlock;
 import net.mcreator.genshincore.block.FirLeafSlabBlock;
+import net.mcreator.genshincore.block.FirFenceGateBlock;
+import net.mcreator.genshincore.block.FirFenceBlock;
+import net.mcreator.genshincore.block.FirButtonBlock;
 import net.mcreator.genshincore.GenshinCoreMod;
 
 public class GenshinCoreModBlocks {
@@ -54,4 +66,16 @@ public class GenshinCoreModBlocks {
 	public static final RegistryObject<Block> FIR_WOOD = REGISTRY.register("fir_wood", () -> new FirWoodBlock());
 	public static final RegistryObject<Block> FIR_WOOD_STAIRS = REGISTRY.register("fir_wood_stairs", () -> new FirWoodStairsBlock());
 	public static final RegistryObject<Block> FIR_WOOD_SLAB = REGISTRY.register("fir_wood_slab", () -> new FirWoodSlabBlock());
+	public static final RegistryObject<Block> FIR_PLANKS = REGISTRY.register("fir_planks", () -> new FirPlanksBlock());
+	public static final RegistryObject<Block> FIR_STAIRS = REGISTRY.register("fir_stairs", () -> new FirStairsBlock());
+	public static final RegistryObject<Block> FIR_SLAB = REGISTRY.register("fir_slab", () -> new FirSlabBlock());
+	public static final RegistryObject<Block> FIR_FENCE = REGISTRY.register("fir_fence", () -> new FirFenceBlock());
+	public static final RegistryObject<Block> FIR_FENCE_GATE = REGISTRY.register("fir_fence_gate", () -> new FirFenceGateBlock());
+	public static final RegistryObject<Block> FIR_PRESSURE_PLATE = REGISTRY.register("fir_pressure_plate", () -> new FirPressurePlateBlock());
+	public static final RegistryObject<Block> FIR_BUTTON = REGISTRY.register("fir_button", () -> new FirButtonBlock());
+	public static final RegistryObject<Block> MONDSTADT_STONE = REGISTRY.register("mondstadt_stone", () -> new MondstadtStoneBlock());
+	public static final RegistryObject<Block> MONDSTADT_STONE_STAIRS = REGISTRY.register("mondstadt_stone_stairs", () -> new MondstadtStoneStairsBlock());
+	public static final RegistryObject<Block> MONDSTADT_STONE_SLAB = REGISTRY.register("mondstadt_stone_slab", () -> new MondstadtStoneSlabBlock());
+	public static final RegistryObject<Block> MONDSTADT_STONE_PRESSURE_PLATE = REGISTRY.register("mondstadt_stone_pressure_plate", () -> new MondstadtStonePressurePlateBlock());
+	public static final RegistryObject<Block> MONDSTADT_STONE_BUTTON = REGISTRY.register("mondstadt_stone_button", () -> new MondstadtStoneButtonBlock());
 }

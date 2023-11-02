@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MondstadtStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MondstadtStone"
+      },
+      {
+        "value": "CUSTOM:MondstadtStone"
+      },
+      {
+        "value": "CUSTOM:MondstadtStone"
+      },
+      {
+        "value": "CUSTOM:MondstadtStone"
+      },
+      {
+        "value": "CUSTOM:MondstadtStone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MondstadtStoneStairs"
+    },
+    "name": "mondstadt_stone_stairs_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "genshin_core:fir_leaves"
+    },
+    "title": {
+      "translate": "advancements.mondstadt_mountains_advancment.title"
+    },
+    "description": {
+      "translate": "advancements.mondstadt_mountains_advancment.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mondstadt_mountains_advancment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "genshin_core:mondstadt_mountains"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "genshin_core:nation_of_freedom"
+}

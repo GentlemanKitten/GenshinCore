@@ -746,6 +746,509 @@
         ]
       },
       "path": "~/Structure"
+    },
+    {
+      "name": "FirPlanks",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/FirPlanksBlock.java",
+          "src/main/resources/assets/genshin_core/blockstates/fir_planks.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_planks.json",
+          "src/main/resources/assets/genshin_core/models/item/fir_planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirStairs",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/blockstates/fir_stairs.json",
+          "src/main/resources/assets/genshin_core/models/item/fir_stairs.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_stairs_inner.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_stairs_outer.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_stairs.json",
+          "src/main/java/net/mcreator/genshincore/block/FirStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirSlab",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/block/fir_slab_full.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_slab_top.json",
+          "src/main/java/net/mcreator/genshincore/block/FirSlabBlock.java",
+          "src/main/resources/assets/genshin_core/models/item/fir_slab.json",
+          "src/main/resources/assets/genshin_core/blockstates/fir_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirFence",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/item/fir_fence.json",
+          "src/main/resources/assets/genshin_core/blockstates/fir_fence.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_fence.json",
+          "src/main/java/net/mcreator/genshincore/block/FirFenceBlock.java",
+          "src/main/resources/assets/genshin_core/models/block/fir_fence_inventory.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_fence_post.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirFenceGate",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/item/fir_fence_gate.json",
+          "src/main/resources/assets/genshin_core/blockstates/fir_fence_gate.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_fence_gate.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_fence_gate_wall.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/genshincore/block/FirFenceGateBlock.java",
+          "src/main/resources/assets/genshin_core/models/block/fir_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirPressurePlate",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/FirPressurePlateBlock.java",
+          "src/main/resources/assets/genshin_core/models/block/fir_pressure_plate.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_pressure_plate_down.json",
+          "src/main/resources/assets/genshin_core/blockstates/fir_pressure_plate.json",
+          "src/main/resources/assets/genshin_core/models/item/fir_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirButton",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/block/fir_button_pressed.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_button_inventory.json",
+          "src/main/resources/assets/genshin_core/models/block/fir_button.json",
+          "src/main/resources/assets/genshin_core/blockstates/fir_button.json",
+          "src/main/java/net/mcreator/genshincore/block/FirButtonBlock.java",
+          "src/main/resources/assets/genshin_core/models/item/fir_button.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtStone",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_stone.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone.json",
+          "src/main/java/net/mcreator/genshincore/block/MondstadtStoneBlock.java",
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtStoneStairs",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_stone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_stone_stairs.json",
+          "src/main/java/net/mcreator/genshincore/block/MondstadtStoneStairsBlock.java",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone_stairs_outer.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone_stairs.json",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_stone_stairs.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtStoneSlab",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_stone_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/genshincore/block/MondstadtStoneSlabBlock.java",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone_slab_top.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone_slab_full.json",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_stone_slab.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone_slab.json",
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_stone_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtStonePressurePlate",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_stone_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone_pressure_plate.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone_pressure_plate_down.json",
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_stone_pressure_plate.json",
+          "src/main/java/net/mcreator/genshincore/block/MondstadtStonePressurePlateBlock.java",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_stone_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MondstadtStoneButton",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_stone_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone_button_pressed.json",
+          "src/main/resources/assets/genshin_core/blockstates/mondstadt_stone_button.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone_button.json",
+          "src/main/java/net/mcreator/genshincore/block/MondstadtStoneButtonBlock.java",
+          "src/main/resources/assets/genshin_core/models/item/mondstadt_stone_button.json",
+          "src/main/resources/assets/genshin_core/models/block/mondstadt_stone_button_inventory.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FirCraftingRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_crafting_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirStairsRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirSlabRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirFenceRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_fence_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirGateRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_gate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirStickRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_stick_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirPlateRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_plate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirButtonRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_button_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirPlanksRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_planks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirAxeRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirSwordRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirShovelRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FirHoeRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/fir_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MondstadtStoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_stone_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/mondstadt_stone_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MondstadtStoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_stone_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/mondstadt_stone_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MondstadtStonePlateRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_stone_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/mondstadt_stone_plate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MondstadtStoneButtonRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_stone_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/recipes/mondstadt_stone_button_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NationOfFreedom",
+      "type": "achievement",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nation_of_freedom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/advancements/nation_of_freedom.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MondstadtMountainsAdvancment",
+      "type": "achievement",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mondstadt_mountains_advancment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/genshin_core/advancements/mondstadt_mountains_advancment.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -753,34 +1256,50 @@
   "language_map": {
     "en_us": {
       "block.genshin_core.mondstadt_mountain_grass_block": "Mondstadt Mountain Grass Block",
-      "block.genshin_core.mondstadt_mountain_full_grass_stairs": "Mondstadt Mountain Full Grass Stairs",
-      "block.genshin_core.mondstadt_mountain_grass_slab": "Mondstadt Mountain Grass Slab",
       "block.genshin_core.fir_leaf_stairs": "Fir Leaf Stairs",
-      "block.genshin_core.fir_log_slab": "Fir Log Slab",
+      "block.genshin_core.fir_planks": "Fir Planks",
+      "block.genshin_core.mondstadt_stone_stairs": "Mondstadt Stone Stairs",
+      "block.genshin_core.fir_pressure_plate": "Fir Pressure Plate",
       "block.genshin_core.mondstadt_mountain_dirt_stairs": "Mondstadt Mountain Dirt Stairs",
       "item_group.genshin_core.nature": "Nature",
-      "item_group.genshin_core.blocks": "Blocks",
       "block.genshin_core.mondstadt_mountain_dirt_slab": "Mondstadt Mountain Dirt Slab",
-      "block.genshin_core.mondstadt_mountain_full_grass_slab": "Mondstadt Mountain Full Grass Slab",
       "advancements.welcome_to_teyvat.title": "Welcome To Teyvat!",
       "item.genshin_core.primogem": "Primogem",
+      "block.genshin_core.mondstadt_stone": "Mondstadt Stone",
+      "advancements.nation_of_freedom.title": "Nation Of Freedom",
+      "advancements.mondstadt_mountains_advancment.descr": "Enter Mondstadt Hills",
+      "advancements.mondstadt_mountains_advancment.title": "Mondstadt Mountains Advancment",
+      "block.genshin_core.fir_leaf_slab": "Fir Leaf Slab",
+      "advancements.spooky_scary_pumpkins.title": "Spooky Scary Pumpkins!",
+      "block.genshin_core.small_lamp_grass": "Small Lamp Grass",
+      "block.genshin_core.fir_log": "Fir Log",
+      "block.genshin_core.fir_wood_stairs": "Fir Wood Stairs",
+      "block.genshin_core.fir_stairs": "Fir Stairs",
+      "block.genshin_core.fir_wood": "Fir Wood",
+      "block.genshin_core.mondstadt_mountain_grass": "Mondstadt Mountain Grass",
+      "block.genshin_core.fir_leaves": "Fir Leaves",
+      "block.genshin_core.fir_fence_gate": "Fir Fence Gate",
+      "block.genshin_core.fir_wood_slab": "Fir Wood Slab",
+      "block.genshin_core.mondstadt_stone_pressure_plate": "Mondstadt Stone Pressure Plate",
+      "block.genshin_core.fir_slab": "Fir Slab",
+      "block.genshin_core.mondstadt_mountain_full_grass_stairs": "Mondstadt Mountain Full Grass Stairs",
+      "block.genshin_core.mondstadt_mountain_grass_slab": "Mondstadt Mountain Grass Slab",
+      "block.genshin_core.fir_button": "Fir Button",
+      "block.genshin_core.mondstadt_stone_button": "Mondstadt Stone Button",
+      "block.genshin_core.mondstadt_stone_slab": "Mondstadt Stone Slab",
+      "block.genshin_core.fir_log_slab": "Fir Log Slab",
+      "item_group.genshin_core.blocks": "Blocks",
+      "block.genshin_core.mondstadt_mountain_full_grass_slab": "Mondstadt Mountain Full Grass Slab",
       "item_group.genshin_core.currency": "Currency",
       "block.genshin_core.windwheel_aster": "Windwheel Aster",
       "advancements.welcome_to_teyvat.descr": "Enter Teyvat.",
       "block.genshin_core.mondstadt_mountain_full_grass_block": "Mondstadt Mountain Full Grass Block",
-      "block.genshin_core.fir_leaf_slab": "Fir Leaf Slab",
-      "advancements.spooky_scary_pumpkins.title": "Spooky Scary Pumpkins!",
-      "block.genshin_core.small_lamp_grass": "Small Lamp Grass",
+      "advancements.nation_of_freedom.descr": "Enter Mondstadt",
       "block.genshin_core.mondstadt_mountain_dirt_block": "Mondstadt Mountain Dirt Block",
-      "block.genshin_core.fir_log": "Fir Log",
-      "block.genshin_core.fir_wood_stairs": "Fir Wood Stairs",
+      "block.genshin_core.fir_fence": "Fir Fence",
       "biome.genshin_core.mondstadt_mountains": "Mondstadt Mountains",
       "advancements.spooky_scary_pumpkins.descr": "Find Spooky Pumpkin Patch",
-      "block.genshin_core.mondstadt_mountain_grass_stairs": "Mondstadt Mountain Grass Stairs",
-      "block.genshin_core.fir_wood": "Fir Wood",
-      "block.genshin_core.mondstadt_mountain_grass": "Mondstadt Mountain Grass",
-      "block.genshin_core.fir_leaves": "Fir Leaves",
-      "block.genshin_core.fir_wood_slab": "Fir Wood Slab"
+      "block.genshin_core.mondstadt_mountain_grass_stairs": "Mondstadt Mountain Grass Stairs"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "genshin_core:block/guilded_image_e885887888ec075cecd86aec8ff9d0f9"
+  },
+  "render_type": "solid"
+}

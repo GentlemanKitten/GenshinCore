@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_core:mondstadt_stone"
+    }
+  },
+  "result": {
+    "item": "genshin_core:mondstadt_stone_button",
+    "count": 1
+  }
+}

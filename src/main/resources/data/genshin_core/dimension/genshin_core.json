@@ -424,7 +424,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:stone"
+                            "Name": "genshin_core:mondstadt_stone"
                           }
                         }
                       ]

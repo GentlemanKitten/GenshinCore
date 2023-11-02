@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "genshin_core:windwheel_aster"
+    },
+    "title": {
+      "translate": "advancements.nation_of_freedom.title"
+    },
+    "description": {
+      "translate": "advancements.nation_of_freedom.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nation_of_freedom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "genshin_core:mondstadt_mountains"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "genshin_core:welcome_to_teyvat"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "genshin_core:mondstadt_stone"
+    },
+    "1": {
+      "item": "genshin_core:mondstadt_stone"
+    },
+    "2": {
+      "item": "genshin_core:mondstadt_stone"
+    }
+  },
+  "result": {
+    "item": "genshin_core:mondstadt_stone_slab",
+    "count": 6
+  }
+}

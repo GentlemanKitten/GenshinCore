@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "genshin_core:block/guilded_image_e885887888ec075cecd86aec8ff9d0f9",
+    "particle": "genshin_core:block/guilded_image_e885887888ec075cecd86aec8ff9d0f9"
+  },
+  "render_type": "solid"
+}
