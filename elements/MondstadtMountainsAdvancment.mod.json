@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Mondstadt Mountains Advancment",
+    "achievementName": "Mondstadt Mountains",
     "achievementDescription": "Enter Mondstadt Hills",
     "achievementIcon": {
       "value": "CUSTOM:FirLeaves"

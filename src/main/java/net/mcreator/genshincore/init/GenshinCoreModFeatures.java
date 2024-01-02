@@ -14,8 +14,7 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 import net.mcreator.genshincore.world.features.plants.WindwheelAsterFeature;
 import net.mcreator.genshincore.world.features.plants.SmallLampGrassFeature;
 import net.mcreator.genshincore.world.features.plants.MondstadtMountainGrassFeature;
-import net.mcreator.genshincore.world.features.PumpkinPatchSpookyFeature;
-import net.mcreator.genshincore.world.features.PumpkinPatchFeature;
+import net.mcreator.genshincore.world.features.ores.MondstadtStoneFeature;
 import net.mcreator.genshincore.GenshinCoreMod;
 
 @Mod.EventBusSubscriber
@@ -24,6 +23,5 @@ public class GenshinCoreModFeatures {
 	public static final RegistryObject<Feature<?>> WINDWHEEL_ASTER = REGISTRY.register("windwheel_aster", WindwheelAsterFeature::new);
 	public static final RegistryObject<Feature<?>> SMALL_LAMP_GRASS = REGISTRY.register("small_lamp_grass", SmallLampGrassFeature::new);
 	public static final RegistryObject<Feature<?>> MONDSTADT_MOUNTAIN_GRASS = REGISTRY.register("mondstadt_mountain_grass", MondstadtMountainGrassFeature::new);
-	public static final RegistryObject<Feature<?>> PUMPKIN_PATCH = REGISTRY.register("pumpkin_patch", PumpkinPatchFeature::new);
-	public static final RegistryObject<Feature<?>> PUMPKIN_PATCH_SPOOKY = REGISTRY.register("pumpkin_patch_spooky", PumpkinPatchSpookyFeature::new);
+	public static final RegistryObject<Feature<?>> MONDSTADT_STONE = REGISTRY.register("mondstadt_stone", MondstadtStoneFeature::new);
 }

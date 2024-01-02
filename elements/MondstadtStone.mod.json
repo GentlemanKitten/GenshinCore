@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "guilded_image_2cde798ad6e4a700e280ceb1908f35cd",
+    "texture": "guilded_image_37c5789c2d2e10b3d426a04eba0e5aa8",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -117,13 +117,23 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:GenshinCore"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MondstadtMountains"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE#0"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
+    "frequencyPerChunks": 25,
+    "frequencyOnChunk": 25,
+    "minGenerateHeight": -64,
     "maxGenerateHeight": 64
   }
 }

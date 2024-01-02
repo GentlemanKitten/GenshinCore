@@ -1,7 +1,7 @@
 {
   "parent": "block/pressure_plate_down",
   "textures": {
-    "texture": "genshin_core:block/guilded_image_2cde798ad6e4a700e280ceb1908f35cd"
+    "texture": "genshin_core:block/guilded_image_37c5789c2d2e10b3d426a04eba0e5aa8"
   },
   "render_type": "solid"
 }

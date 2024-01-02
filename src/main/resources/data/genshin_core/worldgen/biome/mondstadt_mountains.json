@@ -13,38 +13,7 @@
   "spawners": {
     "monster": [],
     "creature": [],
-    "ambient": [
-      {
-        "type": "pig",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "cow",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "horse",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "chicken",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "sheep",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
+    "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],

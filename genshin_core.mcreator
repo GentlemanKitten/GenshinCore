@@ -700,54 +700,6 @@
       "path": "~/Advancements"
     },
     {
-      "name": "SpookyScaryPumpkins",
-      "type": "achievement",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spooky_scary_pumpkins",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/genshin_core/advancements/spooky_scary_pumpkins.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "PumpkinPatch",
-      "type": "structure",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pumpkin_patch",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/genshincore/world/features/PumpkinPatchFeature.java",
-          "src/main/resources/data/genshin_core/forge/biome_modifier/pumpkin_patch_biome_modifier.json",
-          "src/main/resources/data/genshin_core/worldgen/configured_feature/pumpkin_patch.json",
-          "src/main/resources/data/genshin_core/worldgen/placed_feature/pumpkin_patch.json"
-        ]
-      },
-      "path": "~/Structure"
-    },
-    {
-      "name": "PumpkinPatchSpooky",
-      "type": "structure",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pumpkin_patch_spooky",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/genshin_core/forge/biome_modifier/pumpkin_patch_spooky_biome_modifier.json",
-          "src/main/resources/data/genshin_core/worldgen/placed_feature/pumpkin_patch_spooky.json",
-          "src/main/java/net/mcreator/genshincore/world/features/PumpkinPatchSpookyFeature.java",
-          "src/main/resources/data/genshin_core/worldgen/configured_feature/pumpkin_patch_spooky.json"
-        ]
-      },
-      "path": "~/Structure"
-    },
-    {
       "name": "FirPlanks",
       "type": "block",
       "sortid": 46,
@@ -887,9 +839,13 @@
       "registry_name": "mondstadt_stone",
       "metadata": {
         "files": [
+          "src/main/resources/data/genshin_core/forge/biome_modifier/mondstadt_stone_biome_modifier.json",
           "src/main/resources/assets/genshin_core/blockstates/mondstadt_stone.json",
+          "src/main/resources/data/genshin_core/worldgen/configured_feature/mondstadt_stone.json",
           "src/main/resources/assets/genshin_core/models/block/mondstadt_stone.json",
           "src/main/java/net/mcreator/genshincore/block/MondstadtStoneBlock.java",
+          "src/main/java/net/mcreator/genshincore/world/features/ores/MondstadtStoneFeature.java",
+          "src/main/resources/data/genshin_core/worldgen/placed_feature/mondstadt_stone.json",
           "src/main/resources/assets/genshin_core/models/item/mondstadt_stone.json"
         ]
       },
@@ -1255,51 +1211,49 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.genshin_core.mondstadt_stone_pressure_plate": "Mondstadt Stone Pressure Plate",
+      "block.genshin_core.fir_slab": "Fir Slab",
       "block.genshin_core.mondstadt_mountain_grass_block": "Mondstadt Mountain Grass Block",
+      "block.genshin_core.mondstadt_mountain_full_grass_stairs": "Mondstadt Mountain Full Grass Stairs",
+      "block.genshin_core.mondstadt_mountain_grass_slab": "Mondstadt Mountain Grass Slab",
       "block.genshin_core.fir_leaf_stairs": "Fir Leaf Stairs",
       "block.genshin_core.fir_planks": "Fir Planks",
       "block.genshin_core.mondstadt_stone_stairs": "Mondstadt Stone Stairs",
       "block.genshin_core.fir_pressure_plate": "Fir Pressure Plate",
+      "block.genshin_core.fir_button": "Fir Button",
       "block.genshin_core.mondstadt_mountain_dirt_stairs": "Mondstadt Mountain Dirt Stairs",
+      "block.genshin_core.mondstadt_stone_button": "Mondstadt Stone Button",
+      "block.genshin_core.mondstadt_stone_slab": "Mondstadt Stone Slab",
+      "block.genshin_core.fir_log_slab": "Fir Log Slab",
       "item_group.genshin_core.nature": "Nature",
+      "item_group.genshin_core.blocks": "Blocks",
       "block.genshin_core.mondstadt_mountain_dirt_slab": "Mondstadt Mountain Dirt Slab",
       "advancements.welcome_to_teyvat.title": "Welcome To Teyvat!",
+      "block.genshin_core.mondstadt_mountain_full_grass_slab": "Mondstadt Mountain Full Grass Slab",
       "item.genshin_core.primogem": "Primogem",
       "block.genshin_core.mondstadt_stone": "Mondstadt Stone",
       "advancements.nation_of_freedom.title": "Nation Of Freedom",
       "advancements.mondstadt_mountains_advancment.descr": "Enter Mondstadt Hills",
-      "advancements.mondstadt_mountains_advancment.title": "Mondstadt Mountains Advancment",
+      "advancements.mondstadt_mountains_advancment.title": "Mondstadt Mountains",
+      "item_group.genshin_core.currency": "Currency",
+      "block.genshin_core.windwheel_aster": "Windwheel Aster",
+      "advancements.welcome_to_teyvat.descr": "Enter Teyvat.",
       "block.genshin_core.fir_leaf_slab": "Fir Leaf Slab",
-      "advancements.spooky_scary_pumpkins.title": "Spooky Scary Pumpkins!",
+      "block.genshin_core.mondstadt_mountain_full_grass_block": "Mondstadt Mountain Full Grass Block",
+      "advancements.nation_of_freedom.descr": "Enter Mondstadt",
       "block.genshin_core.small_lamp_grass": "Small Lamp Grass",
+      "block.genshin_core.mondstadt_mountain_dirt_block": "Mondstadt Mountain Dirt Block",
       "block.genshin_core.fir_log": "Fir Log",
+      "block.genshin_core.fir_fence": "Fir Fence",
       "block.genshin_core.fir_wood_stairs": "Fir Wood Stairs",
+      "biome.genshin_core.mondstadt_mountains": "Mondstadt Mountains",
+      "block.genshin_core.mondstadt_mountain_grass_stairs": "Mondstadt Mountain Grass Stairs",
       "block.genshin_core.fir_stairs": "Fir Stairs",
       "block.genshin_core.fir_wood": "Fir Wood",
       "block.genshin_core.mondstadt_mountain_grass": "Mondstadt Mountain Grass",
       "block.genshin_core.fir_leaves": "Fir Leaves",
       "block.genshin_core.fir_fence_gate": "Fir Fence Gate",
-      "block.genshin_core.fir_wood_slab": "Fir Wood Slab",
-      "block.genshin_core.mondstadt_stone_pressure_plate": "Mondstadt Stone Pressure Plate",
-      "block.genshin_core.fir_slab": "Fir Slab",
-      "block.genshin_core.mondstadt_mountain_full_grass_stairs": "Mondstadt Mountain Full Grass Stairs",
-      "block.genshin_core.mondstadt_mountain_grass_slab": "Mondstadt Mountain Grass Slab",
-      "block.genshin_core.fir_button": "Fir Button",
-      "block.genshin_core.mondstadt_stone_button": "Mondstadt Stone Button",
-      "block.genshin_core.mondstadt_stone_slab": "Mondstadt Stone Slab",
-      "block.genshin_core.fir_log_slab": "Fir Log Slab",
-      "item_group.genshin_core.blocks": "Blocks",
-      "block.genshin_core.mondstadt_mountain_full_grass_slab": "Mondstadt Mountain Full Grass Slab",
-      "item_group.genshin_core.currency": "Currency",
-      "block.genshin_core.windwheel_aster": "Windwheel Aster",
-      "advancements.welcome_to_teyvat.descr": "Enter Teyvat.",
-      "block.genshin_core.mondstadt_mountain_full_grass_block": "Mondstadt Mountain Full Grass Block",
-      "advancements.nation_of_freedom.descr": "Enter Mondstadt",
-      "block.genshin_core.mondstadt_mountain_dirt_block": "Mondstadt Mountain Dirt Block",
-      "block.genshin_core.fir_fence": "Fir Fence",
-      "biome.genshin_core.mondstadt_mountains": "Mondstadt Mountains",
-      "advancements.spooky_scary_pumpkins.descr": "Find Spooky Pumpkin Patch",
-      "block.genshin_core.mondstadt_mountain_grass_stairs": "Mondstadt Mountain Grass Stairs"
+      "block.genshin_core.fir_wood_slab": "Fir Wood Slab"
     }
   },
   "foldersRoot": {
