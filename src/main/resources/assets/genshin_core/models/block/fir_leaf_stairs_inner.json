@@ -1,9 +1,9 @@
 {
   "parent": "block/inner_stairs",
   "textures": {
-    "bottom": "genshin_core:block/guilded_image_2e25b71bdb664ea5a13e278118abed97",
-    "top": "genshin_core:block/guilded_image_2e25b71bdb664ea5a13e278118abed97",
-    "side": "genshin_core:block/guilded_image_2e25b71bdb664ea5a13e278118abed97"
+    "bottom": "genshin_core:block/c0wwwwwwwwwwwwwwwwwwwwwwwwwwwww6f0",
+    "top": "genshin_core:block/c0wwwwwwwwwwwwwwwwwwwwwwwwwwwww6f0",
+    "side": "genshin_core:block/c0wwwwwwwwwwwwwwwwwwwwwwwwwwwww6f0"
   },
   "render_type": "translucent"
 }

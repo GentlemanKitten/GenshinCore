@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "genshin_core:block/guilded_image_2e25b71bdb664ea5a13e278118abed97",
-    "particle": "genshin_core:block/guilded_image_2e25b71bdb664ea5a13e278118abed97"
+    "all": "genshin_core:block/c0wwwwwwwwwwwwwwwwwwwwwwwwwwwww6f0",
+    "particle": "genshin_core:block/c0wwwwwwwwwwwwwwwwwwwwwwwwwwwww6f0"
   }
 }

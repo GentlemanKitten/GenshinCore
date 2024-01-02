@@ -2,8 +2,8 @@
   "parent": "block/cube_bottom_top",
   "textures": {
     "bottom": "genshin_core:block/guilded_image_f68f727afc19360104b7fcf227a50581",
-    "top": "genshin_core:block/guilded_image_add24769f143b6180c7680e9deb658ee",
-    "side": "genshin_core:block/guilded_image_3adf9d29580da071d0f323ac167734c1"
+    "top": "genshin_core:block/8403cb724d26a51c",
+    "side": "genshin_core:block/4e33b9898e666"
   },
   "render_type": "solid"
 }

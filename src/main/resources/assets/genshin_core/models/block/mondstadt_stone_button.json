@@ -1,7 +1,7 @@
 {
   "parent": "block/button",
   "textures": {
-    "texture": "genshin_core:block/guilded_image_37c5789c2d2e10b3d426a04eba0e5aa8"
+    "texture": "genshin_core:block/d4545456hfhhffg"
   },
   "render_type": "solid"
 }
